@@ -1,0 +1,60 @@
+:root {
+  margin: 0;
+  padding: 0;
+}
+
+.article {
+  margin: 0 auto;
+  max-width: 600px;
+  display: flex;
+}
+
+.hide-article {
+  display: none;
+}
+
+
+.pink {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 3px rgba(122, 11, 114, 0.5);
+}
+
+.pinkm {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+.pinkr {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+.alla {
+  background-color: rgb(255, 183, 216);
+}
+
+.pick {
+  background-color: rgb(252, 196, 255);
+}
+
+.smul {
+  background-color: rgb(251, 179, 238);
+}
+
+.c {
+  color: blanchedalmond;
+  font-size: 20px;
+  font-family: geneva;
+  text-align: right;
+
+}
