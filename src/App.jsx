@@ -17,24 +17,24 @@ function App() {
 
   return (
     <>
+    <div className='article'>
       <article className={`smul ${getActiveClassName(activeArticle, 'First Article')}`} >
         <h1>About Me</h1>
-        <p className='c'> Jag har gjort spel som tictactoe, guessing game och även hemsidor, med hjälp utav html css och javascript,jag hade velat lära mig mer react och förbättra mina kunskaper.</p>
-        <img className='pink' src={pink} alt="" />
+        <p className='c'> Jag har gjort spel som tictactoe, guessing game, med hjälp utav html css och javascript,och vill lära mig mer.</p>
+        <img  src={pink} alt="" />
       </article>
-      <article className={`pick ${getActiveClassName(activeArticle, '2nd Article')}`} >
-        <h1>Idea</h1>
+      <article className={`smul ${getActiveClassName(activeArticle, '2nd Article')}`} >
+        <h3>Idea</h3>
         <p className='c'> I nästa uppgift skulle jag vilja göra ett portfolio.</p>
-        <img className='pinkm' src={pinkm} alt="" />
+        <img src={pinkm} alt="" />
 
       </article>
-      <article className={`alla ${getActiveClassName(activeArticle, '3rd Article')}`} >
-        <h1>hejsan</h1>
-        <p className='c'> Jag skulle vilja ha ett rosa tema i nästa uppgift.</p>
-        <img className='pinkr' src={pinkr} alt="" />
+      <article className={`smul ${getActiveClassName(activeArticle, '3rd Article')}`} >
+        <h2>tema</h2>
+        <p className='c'> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, veniam?.</p>
+        <img  src={pinkr} alt="" />
       </article>
-      <div className='article'>
-        <button onClick={() => {
+      <button onClick={() => {
           setActiveArticle((a) => {
             if (a === 'First Article') {
               return '2nd Article'
@@ -47,6 +47,8 @@ function App() {
         }}>Tap here to see more</button>
 
       </div>
+
+
     </>
   )
 }
